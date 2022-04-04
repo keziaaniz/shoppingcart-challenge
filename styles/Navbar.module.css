@@ -1,0 +1,38 @@
+.logo {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color:#324001;
+}
+
+.navbar {
+  margin: 15px 1px 0 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 18px 25px 0.75px rgba( 49,61,3, 0.37 );
+  backdrop-filter: blur( 7.0px );
+
+   
+}
+
+  .links {
+    display: flex;
+  }
+
+
+  .navlink {
+    list-style: none;
+    margin: 0 0.75rem;
+  }
+  
+  .navlink p,  .navlink a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #324001;
+  }
+  
+  .navlink p:hover,  .navlink a:hover {
+    color: #dea5a4;
+  }

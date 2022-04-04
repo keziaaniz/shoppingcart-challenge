@@ -1,0 +1,91 @@
+.container {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(165,110,23, 0.4);
+   
+    border: none;
+    
+  margin: 2px;
+  backdrop-filter: blur( 5.9px );
+  }
+  
+  .header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header div {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  color:#f29b88;
+  font-family: 'Kameron', serif;
+  }
+  
+  .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .body > * {
+    flex: 1;
+  }
+  
+  .image {
+    width: 100px;
+  }
+  
+  .buttons > * {
+    width: 25px;
+    height: 30px;
+    background-color: #324001;
+    color: #f29b88;
+    border: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 10px 14px -7px #313d03;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-shadow: 0px 1px 0px #acac38;
+}
+
+  .brand {
+    font-family:'Kameron', serif;
+    color: #dea5a4;
+  }
+
+  .title {
+    font-weight: 600;
+  color:#324001;
+  font-family: 'Kameron', serif;
+  }
+
+  .text {
+    font-weight: 900;
+    color:#acac38;
+    font-family: 'Kameron', serif;
+    font-size: 1.2rem;
+
+  }
+
+  .freshipping {
+    padding: 25px 5px 22px 15px;
+    color: #acac38;
+    font-size: 10px;
+    font-family:'Kameron', serif;
+    font-weight: 600;
+  }

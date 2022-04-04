@@ -1,16 +1,36 @@
-html,
-body {
-  padding: 0;
+/* color palet
+#df832b
+#324001
+#9e1213
+#f29b88
+#dea5a4
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Passions+Conflict&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
   box-sizing: border-box;
+  
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+    background-image: url("https://www.rd.com/wp-content/uploads/2019/07/cocoa-cacao-beans-chocolate-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+
+  
 }

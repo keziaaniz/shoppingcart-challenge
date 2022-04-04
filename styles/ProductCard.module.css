@@ -1,0 +1,46 @@
+.card {
+    background: rgba(165,110,23, 0.5);
+   
+    border: none;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+  margin: 2px;
+  backdrop-filter: blur( 0.9px );
+  }  
+    
+  .title, .price {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #324001;
+    font-family:'Kameron', serif;
+  }
+  
+   
+  .button {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.75rem 0;
+    background: rgba(222,165,164, 0.5);
+    text-transform: uppercase;
+    border: 2px solid #dea5a4;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 5px 10px 14px -7px #f29b88;
+    text-shadow: 0px 1px 0px #dea5a4;
+    font-family:'Kameron', serif;
+    cursor: pointer;
+    color: #313d03;
+  }
+  
+  .button:hover {
+    background: linear-gradient( #acac38, #313d03);
+    color: #dea5a4;
+    border: 2px solid #3a4706;
+    box-shadow: 0px 10px 14px -7px #313d03;
+    text-shadow: 0px 1px 0px #acac38;
+  }
+  
